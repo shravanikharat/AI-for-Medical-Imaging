@@ -17,6 +17,6 @@ This repository contains code for building a convolutional autoencoder model to 
 
 4. Model training: The autoencoder is trained using noisy MR images as input and corresponding noise-free images as output.
 
-5. Model evaluation: The trained model's performance is evaluated using Mean Squared Error (MSE) and Peak Signal-to-Noise Ratio (PSNR) metrics.
+5. Model optimization and evaluation: The trained model's performance is optimized by Adam Optimizer and evaluated using Mean Squared Error (MSE) and Peak Signal-to-Noise Ratio (PSNR) metrics.
 
 6. Results visualization: Random samples of original noise-free images, noisy MR images, and denoised images are visualized.
