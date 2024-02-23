@@ -9,14 +9,14 @@ This repository contains code for building a convolutional autoencoder model to 
 
 #### The main components of this repository include:
 
-Data loading: The MR images are loaded from the specified directory.
+1. Data loading: The MR images are loaded from the specified directory.
 
-Adding Noise: White Gaussian noise with variance is added to simulate real-world noise conditions.
+2. Adding Noise: White Gaussian noise with variance is added to simulate real-world noise conditions.
 
-Model architecture: The convolutional autoencoder model, comprising encoder and decoder layers.
+3. Model architecture: The convolutional autoencoder model, comprising encoder and decoder layers.
 
-Model training: The autoencoder is trained using noisy MR images as input and corresponding noise-free images as output.
+4. Model training: The autoencoder is trained using noisy MR images as input and corresponding noise-free images as output.
 
-Model evaluation: The trained model's performance is evaluated using Mean Squared Error (MSE) and Peak Signal-to-Noise Ratio (PSNR) metrics.
+5. Model evaluation: The trained model's performance is evaluated using Mean Squared Error (MSE) and Peak Signal-to-Noise Ratio (PSNR) metrics.
 
-Results visualization: Random samples of original noise-free images, noisy MR images, and denoised images are visualized.
+6. Results visualization: Random samples of original noise-free images, noisy MR images, and denoised images are visualized.
